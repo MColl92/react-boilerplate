@@ -8,9 +8,5 @@
       "allowSyntheticDefaultImports": true,
       "moduleResolution": "node",
       "baseUrl": "./src",
-      "paths": {
-        "assets": ["assets"],
-        "components": ["components"]
-      }
     }
   }

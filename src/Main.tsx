@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import React from 'react';
 import { jsx, css, Global } from '@emotion/react';
-import Carousel from './components/Carousel';
+import Hello from './components/Hello';
 
 const fonts = css`
 	@font-face {
@@ -21,7 +21,7 @@ const style = css`
 const Main: React.FC = () => (
 	<div css={style}>
 		<Global styles={style} />
-		<Carousel />
+		<Hello />
 	</div>
 );
 
